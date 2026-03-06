@@ -41,11 +41,11 @@ export const listSchools = (req, res) => {
 
     const schools = results.map((school) => {
       const distance = Math.sqrt(
-        Math.pow(userLat - school.latitude, 2) +
-          Math.pow(userLon - school.longitude, 2)
-      );
+        Math.pow(userLat - school.latitude, 2) +Math.pow(userLon - school.longitude, 2));
 
       return { ...school, distance };
+
+      
     });
 
     schools.sort((a, b) => a.distance - b.distance);
