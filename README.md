@@ -6,9 +6,7 @@ press enter
 
 use these 
 -To get school
-GET
-https://school-api-abc123.onrender.com/api/listSchools?latitude=28.98&longitude=77.70
+GET https://basicschoolapp.onrender.com/api/listSchools
 
 -To add school
-POST
-https://school-api-abc123.onrender.com/api/addSchool
+POST https://basicschoolapp.onrender.com/api/addSchool
